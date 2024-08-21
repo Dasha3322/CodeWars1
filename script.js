@@ -1,7 +1,8 @@
 // Задача 1 Make a simple function called greet that returns the most-famous "hello world!".
 // function greet() {
 //     return "hello world!";
-//   }
+// }
+// console.log(greet());
 
 
 // Задача 2 Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number. For example: month 2 (February), is part of the first quarter; month 6 (June), is part of the second quarter; and month 11 (November), is part of the fourth quarter.
@@ -17,13 +18,16 @@
 //     } else if (12 >= month && month > 9) {
 //       return 4
 //     }
-//   }
+// }
+// console.log(quarterOf(8));
 
 // Задача 3 Perimeter sequence. The first three stages of a sequence are shown. The blocksize is a by a and a ≥ 1. What is the perimeter of the nth shape in the sequence (n ≥ 1) ?
 
 // function perimeterSequence(a,n) {
 //     return a * n * 4;
 // }
+// console.log(perimeterSequence(2,4));
+
 
 // Задача 4 Very simple, given a number (integer / decimal / both depending on the language), find its opposite (additive inverse).
 // Examples:
@@ -34,6 +38,8 @@
 // function opposite(number) {
 //     return(-number);
 // }
+// console.log(opposite(3));
+
 
 // Задача 5 It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry about strings with less than two characters.
 
@@ -43,3 +49,4 @@
 //     str1.pop();
 //     return str1.join('');      
 // }
+// console.log(removeChar('Privet'));
